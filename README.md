@@ -6,7 +6,7 @@ This work aims to fill this gap by introducing a proof-of-concept application th
 
 We believe that this contribution can support sound engineers in selecting appropriate DRC parameters before applying compression to an audio mixture. In addition, the tool may serve pedagogical purposes by helping students and practitioners understand best practices in music production and dynamic range processing.
 
-This repository contains
+### This repository contains
 
 - the compressor browser prototype application `fifty-shades-of-compression-browser.maxproj`
 - the dataset document `generated-all-clean.mubu`
@@ -15,7 +15,7 @@ Coming soon:
 
 - python code to generate the dataset (definition of plugins and parameters, descriptor analysis, export to csv)
 
-See also
+### See also
 
 - Demo video https://youtu.be/SBs1k2TefiE
 - Dataset with original input sounds and compressor outputs https://zenodo.org/records/21383068
