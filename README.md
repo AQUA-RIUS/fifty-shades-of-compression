@@ -25,7 +25,16 @@ See also
 
 ## How to Get Started with the Compressor Browser ##
 
+1. Download and install Max from [https://cycling74.com/]
+   - The first time you start Max, in `Options | File Preferences`, add the path to the dataset downloaded from https://zenodo.org/records/21383068
+2. Open `fifty-shades-of-compression-browser/fifty-shades-of-compression-browser.maxproj`
+3. In the patch, click the button `Load` and choose  `generated-all-clean.mubu`
+4. Click the button next to `Refresh Display`
+5. Press Space to start/stop playing
+6. Move the mouse over the scatterplot to choose which output is played (press C to switch between click and hover mode)
+7. Choose the input soundfile (keys 1..5)
 
+![Screenshot of the compressor browser patch](compressor-browser.png)
 
 ## References
 

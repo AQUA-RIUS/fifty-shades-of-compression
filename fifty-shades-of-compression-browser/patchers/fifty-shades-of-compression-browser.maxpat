@@ -1045,7 +1045,7 @@
                     "patching_rect": [ -226.0, 849.0, 143.30709421634674, 53.0 ],
                     "presentation": 1,
                     "presentation_rect": [ 10.400000154972076, 540.5, 325.0, 22.0 ],
-                    "text": "int.loudness 37.29 int.loud.range 0.69 peak 76.25"
+                    "text": "int.loudness -23.88 int.loud.range 2.57 peak -0.03"
                 }
             },
             {
@@ -2385,13 +2385,15 @@
                 "box": {
                     "fontsize": 14.0,
                     "id": "obj-4",
+                    "linecount": 2,
                     "maxclass": "comment",
                     "numinlets": 1,
                     "numoutlets": 0,
-                    "patching_rect": [ 47.5, 614.0, 530.4000079035759, 22.0 ],
+                    "patching_rect": [ 47.5, 614.0, 530.4000079035759, 38.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 10.400000154972076, 436.8000065088272, 423.0, 22.0 ],
-                    "text": "Volume 0.99 HPF 0.63 Release 0.83"
+                    "presentation_linecount": 2,
+                    "presentation_rect": [ 10.400000154972076, 436.8000065088272, 423.0, 38.0 ],
+                    "text": "Volume 0.53 Foundation 0.95 THD 0.18 Tone Adjust 0.016 Tone Mode 0.44 TMT Compressor Mode 0.23"
                 }
             },
             {
@@ -2629,6 +2631,7 @@
                             {
                                 "box": {
                                     "id": "obj-37",
+                                    "int": 1,
                                     "maxclass": "gswitch2",
                                     "numinlets": 2,
                                     "numoutlets": 2,
@@ -2746,7 +2749,7 @@
                                     "numoutlets": 1,
                                     "outlettype": [ "" ],
                                     "patching_rect": [ 88.40322625637054, 170.96774315834045, 108.06451690196991, 22.0 ],
-                                    "text": "4965"
+                                    "text": "1120"
                                 }
                             },
                             {
@@ -2823,7 +2826,7 @@
                                     "numoutlets": 1,
                                     "outlettype": [ "" ],
                                     "patching_rect": [ 88.40322625637054, 132.25806546211243, 108.06451690196991, 22.0 ],
-                                    "text": "4965"
+                                    "text": "1120"
                                 }
                             },
                             {
@@ -3378,12 +3381,13 @@
                                     "numoutlets": 1,
                                     "outlettype": [ "" ],
                                     "patching_rect": [ 563.45161652565, 321.7741958498955, 50.0, 22.0 ],
-                                    "text": "50"
+                                    "text": "-50"
                                 }
                             },
                             {
                                 "box": {
                                     "id": "obj-29",
+                                    "int": 1,
                                     "maxclass": "gswitch2",
                                     "numinlets": 2,
                                     "numoutlets": 2,
@@ -4675,7 +4679,7 @@
                     "patching_rect": [ 28.800000429153442, 591.0, 530.4000079035759, 22.0 ],
                     "presentation": 1,
                     "presentation_rect": [ 10.400000154972076, 411.2000061273575, 419.0, 22.0 ],
-                    "text": "yala_33_drumloop.wav"
+                    "text": "bxmasterdeskc_32_drumloop.wav"
                 }
             },
             {
@@ -6343,7 +6347,7 @@
             },
             {
                 "box": {
-                    "args": [ "tut5c-corpus", "descr", "size", "LoudnessMean" ],
+                    "args": [ "tut5c-corpus", "descr", "size", "amount" ],
                     "bgmode": 0,
                     "border": 0,
                     "clickthrough": 0,
@@ -6366,7 +6370,7 @@
             },
             {
                 "box": {
-                    "args": [ "tut5c-corpus", "descr", "y", "PeriodicityMean" ],
+                    "args": [ "tut5c-corpus", "descr", "y", "gdb_std_05ms" ],
                     "bgmode": 0,
                     "border": 0,
                     "clickthrough": 0,
@@ -6389,7 +6393,7 @@
             },
             {
                 "box": {
-                    "args": [ "tut5c-corpus", "descr", "x", "CentroidMean" ],
+                    "args": [ "tut5c-corpus", "descr", "x", "h_rmse_db" ],
                     "bgmode": 0,
                     "border": 0,
                     "clickthrough": 0,
@@ -6462,7 +6466,7 @@
                     "cursor_noringoffset": 0,
                     "cursor_numextracursors": 10,
                     "cursor_outputdata": 0,
-                    "cursor_position": [ 4.102862358093262, 13.337701432268927 ],
+                    "cursor_position": [ 1.0, 0.6161616161616161 ],
                     "cursor_shape": "cross",
                     "cursor_size": 1.0,
                     "cursor_sizeunit": 0,
