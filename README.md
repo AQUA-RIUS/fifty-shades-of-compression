@@ -21,7 +21,8 @@ Coming soon:
 - Dataset with original input sounds and compressor outputs https://zenodo.org/records/21383068
 - [SMC 2026](https://smc26.mbz.hr/en/conference/) article (coming soon)
 - [Supplementary material](https://zenodo.org/records/21383068/files/compressor-browser-smc2026-supplementary-material.pdf)
-
+- Corpus-based concatenative synthesis with [CataRT](https://ircam-ismm.github.io/max-msp/catart.html) to browse large collections of sounds via perceptual audio descriptors
+- Spaces of Spaces — interactive descriptor-based navigation in corpora of room impulse responses [video](https://www.youtube.com/watch?v=ZRCUFhRXErs) and SMC 2025 [article](https://hal.science/hal-05318208v1)
 
 ## How to Get Started with the Compressor Browser ##
 
@@ -29,7 +30,8 @@ Coming soon:
    - The first time you start Max, in `Options | File Preferences`, add the path to the dataset downloaded from https://zenodo.org/records/21383068
 2. Open `fifty-shades-of-compression-browser/fifty-shades-of-compression-browser.maxproj`
 3. In the patch, click the button `Load` and choose  `generated-all-clean.mubu`
-4. Click the button next to `Refresh Display`
+4. Click the button next to `Refresh Display`. It should look like below.
+5. Switch audio on by clicking on the loudspeaker button in the lower left corner.
 5. Press Space to start/stop playing
 6. Move the mouse over the scatterplot to choose which output is played (press C to switch between click and hover mode)
 7. Choose the input soundfile (keys 1..5)
